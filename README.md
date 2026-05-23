@@ -93,7 +93,11 @@ print('--------------------')
 
 for (char, frequency) in freq:
     print(' %-4r | %12s' % (char, huffmanCode[char]))
-```py
+
+```
+
+## OUTPUT:
+```PY
  Char | Huffman code
 --------------------
  'A'  |          11
